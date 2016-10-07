@@ -32,8 +32,8 @@ public class BotonesActivity extends Activity {
 
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(BotonesActivity.this,GraficNodes.class);
-                startActivity(i);
+                //Intent i = new Intent(BotonesActivity.this,GraficNodes.class);
+                //startActivity(i);
 
             }
         });

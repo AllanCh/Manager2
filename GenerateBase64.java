@@ -9,6 +9,7 @@ public class GenerateBase64 {
     static String generar(String dato){
         byte[] value=Base64.encodeBase64(dato.getBytes());
         String texto=new String(value);
+
         return texto;
     }
 
